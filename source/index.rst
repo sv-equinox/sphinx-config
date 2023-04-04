@@ -7,14 +7,7 @@ Welcome to Docs's documentation!
 ================================
 
 .. toctree::
+   test
+   test/test
    :maxdepth: 2
    :caption: Contents:
-
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
