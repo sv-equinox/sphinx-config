@@ -5,9 +5,7 @@ services:
   readthedocs:
     image: sv-equinox/docs:latest
     container_name: docs-demo
-    build:
-      context: .
-      dockerfile: Dockerfile
+    restart: unless-stopped
     networks:
       - docs
       - traefik
