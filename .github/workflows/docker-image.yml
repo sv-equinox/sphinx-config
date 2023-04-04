@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v3
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag sv-equinox/docs:$(date +%s) --tag sv-equinox/docs:latest
-  push:
+  dockerhub:
     needs: build
     runs-on: ubuntu-latest
     steps:
