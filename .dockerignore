@@ -1,0 +1,21 @@
+# Ignore all docker related files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Ignore all .env files
+.env
+
+# Ignore all .idea files
+.idea
+
+# Ignore all .vscode files
+.vscode
+
+# Ignore all git files
+.git
+.gitignore
+
+# Ignore all meta files
+README.md
+LICENSE
