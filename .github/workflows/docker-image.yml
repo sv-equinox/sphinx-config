@@ -22,3 +22,4 @@ jobs:
         push: true
         tags: |
           svequinox/docs:latest
+          svequinox/docs:${{ github.head_ref }}.${{ github.sha }}
