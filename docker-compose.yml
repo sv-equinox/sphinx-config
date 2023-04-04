@@ -3,7 +3,7 @@ version: '3.9'
 
 services:
   readthedocs:
-    image: sv-equinox/docs:latest
+    image: svequinox/docs:latest
     container_name: docs-demo
     restart: unless-stopped
     networks:
