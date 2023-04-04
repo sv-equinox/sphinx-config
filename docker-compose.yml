@@ -4,6 +4,7 @@ version: '3.9'
 services:
   readthedocs:
     image: sv-equinox/docs:latest
+    container_name: docs-demo
     build:
       context: .
       dockerfile: Dockerfile
