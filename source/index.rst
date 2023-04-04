@@ -9,5 +9,6 @@ Welcome to Docs's documentation!
 .. toctree::
    test
    test/test
+   test/new
    :maxdepth: 2
    :caption: Contents:
