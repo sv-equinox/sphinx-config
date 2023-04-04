@@ -22,4 +22,3 @@ jobs:
         push: true
         tags: |
           svequinox/docs:latest
-          svequinox/docs:$(date +%s)
